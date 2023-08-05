@@ -18,6 +18,7 @@ export default function Skills () {
                     <h1 className="text-6xl py-2 font-bold">Skills</h1>
                     <p className="py-2 text-lg"> // These are the technologies I have worked with</p>
                 </div>
+                {/*skills*/}
                 <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
                       <div className="shadow-xl hover:scale-110 rounded-lg">
                     <img className= "w-20 mx-auto"src={JavaScript} alt="JavaScript icon"/>
