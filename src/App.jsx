@@ -1,9 +1,17 @@
-import './App.css'
+import Nav from "./components/Nav"
+import Home from "./components/Home"
+import About from "./components/About"
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
 
 function App() {
   return (
     <>
-    <div className="text-4xl text-blue-800 font-bold bg-green-500">Tom O'Neill</div>
+    <Nav />
+    <Home />
+    <About />
+    <Projects />
+    <Contact />
     </>
   )
 }
