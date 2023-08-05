@@ -7,6 +7,7 @@ export default {
         homeGreen: "#6fdcbf",
         aboutPurple: "#ad8fda",
         projectsYellow: "#fdf8b3",
+        skillsPink: "#F8C8DC",
       },
       fontFamily: {
         mono: ["Menlo", "Monaco", "Consolas"],
