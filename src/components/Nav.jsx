@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import {FaBars, FaTimes} from 'react-icons/fa'
+import { FiSun, FiMoon } from "react-icons/fi";
 
-export default function Nav () {
+export default function Nav ({theme, handleThemeSwitch}) {
 
     const [nav, setNav] = useState(false)
     function handleClick () {
@@ -9,11 +10,22 @@ export default function Nav () {
     }
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 font-bold text-2xl text-gray-600 font-mono ">
+        <nav className="fixed w-full h-[60px] flex justify-between items-center px-4 font-bold text-xl font-mono backdrop-blur-md dark:text-white ">
+
+          
+
+      <div className="hidden md:flex items-center">
+        <button 
+        type="button"
+        onClick={handleThemeSwitch}
+        className="p-2 rounded-md text-4xl" >{theme === 'dark' ? <FiSun /> : <FiMoon />}
+        </button>
+
+      </div>
 
          {/* menu */}
             
-        <ul className="hidden md:flex space-x-10"> 
+        <ul className="hidden md:flex space-x-8 ml-auto"> 
             <li> <a href="#home">Home</a></li>
             <li> <a href="#about">About</a></li>
             <li> <a href="#skills">Skills</a></li>
@@ -34,9 +46,10 @@ export default function Nav () {
             <li className="text-4xl py-6">About</li>
             <li className="text-4xl py-6">Projects</li>
             <li className="text-4xl py-6">Contact</li>
+
         </ul>
 
-        </div>
+        </nav>
     )
 
 }
