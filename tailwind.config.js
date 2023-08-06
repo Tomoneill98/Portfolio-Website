@@ -6,10 +6,18 @@ export default {
     extend: {
       colors: {
         homeGreen: "#6fdcbf",
-        aboutPurple: "#ad8fda",
-        projectsYellow: "#fdf8b3",
-        skillsPink: "#F8C8DC",
-        darkHomePurple: "#774169",
+        pastelPurple: "#EBCCFF",
+        pastelYellow: "#fdf8b3",
+        pastelBlue: "#afd5f0",
+        pastelPink: "#F6B2d7",
+        darkPurple: "#774169",
+        darkPurple2: "#4c3a69",
+        taylorPurple: "#d3bbd7",
+        taylorRed: "#8b3d4b",
+        offWhite: "#f8f8f8",
+        darkPink: "#c37892",
+        darkGrey: "#2d2a31",
+        darkBlue: "#3d426b",
       },
       fontFamily: {
         mono: ["Menlo", "Monaco", "Consolas"],

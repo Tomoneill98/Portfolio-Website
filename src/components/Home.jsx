@@ -3,7 +3,7 @@ import React from "react";
 export default function Home () {
 
     return (
-        <div id='home' className="w-full h-screen bg-homeGreen dark:bg-darkHomePurple dark:text-white">
+        <div id='home' className="w-full h-screen bg-homeGreen dark:bg-darkPurple2 dark:text-white">
 
             {/* heading container */ }
             <div className="max-w-[1000px] mx-auto p-20 border-solid flex flex-col justify-center h-screen">

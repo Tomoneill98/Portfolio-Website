@@ -11,7 +11,7 @@ import PSQL from '../assets/PSQL.png'
 export default function Skills () {
 
     return (
-        <div id='skills' className="bg-skillsPink w-full h-screen">
+        <div id='skills' className="bg-pastelYellow w-full h-screen dark:bg-darkBlue dark:text-white">
             {/*container*/}
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div>

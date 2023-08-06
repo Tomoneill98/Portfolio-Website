@@ -12,13 +12,7 @@ export default function Nav ({theme, handleThemeSwitch}) {
     return (
         <nav className="fixed w-full h-[60px] flex justify-between items-center px-4 font-bold text-xl font-mono backdrop-blur-md dark:text-white ">
 
-            {/* Dark mode toggle button on the left for large screens */}
-
-              {/* <button
-          type="button"
-          onClick={handleThemeSwitch}
-          className="fixed z-10 right-2 top-2  text-3xl p-1 rounded-md"
-        >{theme === 'dark' ? '🌜' : '🌞'}</button> */}
+          
 
       <div className="hidden md:flex items-center">
         <button 
