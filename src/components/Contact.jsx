@@ -6,7 +6,7 @@ import MyCVFile from '../assets/TomONeillCV.pdf';
 export default function Contact () {
 
     return (
-  <div className="h-[32rem] flex justify-center items-center bg-homeGreen">
+  <div id="contact" className="h-[32rem] flex justify-center items-center bg-homeGreen">
     <div className="max-w-[1000px] mx-auto p-4 w-full" >
         <h1 className="text-6xl font-bold mb-8">Contact</h1>
         <div className="sm:grid grid-cols-4  md:flex md:gap-10 ">

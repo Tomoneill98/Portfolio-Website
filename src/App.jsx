@@ -5,15 +5,31 @@ import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Skills from "./components/Skills"
 
+import { useState, useEffect } from "react"
+
 function App() {
+
+  const [theme, setTheme] = useState('light')
+
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }, [theme])
+
+  function handleThemeSwitch () {
+    setTheme(theme === "dark" ? "light" : 'dark')
+  }
+
   return (
     <>
-    <Nav />
+    <Nav theme={theme} handleThemeSwitch={handleThemeSwitch}/>
     <Home />
     <About />
     <Skills />
     <Projects />
-
     <Contact />
     </>
   )
