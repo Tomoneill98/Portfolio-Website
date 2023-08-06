@@ -14,7 +14,7 @@ export default function Projects() {
             </div>
 
         {/*projects*/}
-        <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-4 overflow-x-scroll">
 
         <div className="shadow-xl hover:scale-110 rounded-lg p-3">
         <img className= "w-80 mx-auto mb-4" src={LoveBirds} alt="Love Birds"/>
@@ -63,6 +63,7 @@ export default function Projects() {
                     </a>
                     </div>
         </div>
+        
 
         </div> 
         </div>
