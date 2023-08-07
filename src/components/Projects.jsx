@@ -4,7 +4,7 @@ import LoveBirds from '../assets/lovebirds.png'
 export default function Projects() {
 
     return (
-        <div id="projects" className="bg-pastelPink w-full md:h-screen dark:bg-darkPurple dark:text-white">
+        <div id="projects" className="bg-pastelPink w-full min-h-screen md:h-screen dark:bg-darkPurple dark:text-white">
             {/*container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/*title*/}

@@ -8,15 +8,15 @@ export default function Home() {
             {/* Image Container */}
             <div className="w-40% p-8 bg-white flex justify-center items-center dark:bg-darkGrey">
                 {/* Place your image here */}
-                <img className="w-80 mx-auto justify-center items-center" src={Comp} alt="Image" />
+                <img className="w-80 justify-center items-center" src={Comp} alt="Image" />
             </div>
 
             {/* Heading and Text Container */}
             <div className="max-w-[1000px] mx-auto p-8 flex flex-col justify-center">
-                <h1 className="text-4xl sm:text-7xl pb-5 font-bold font-mono">Hi, I'm Tom!</h1>
-                <h2 className="text-4xl sm:text-6xl pb-5 font-bold font-mono">Full Stack Software Developer</h2>
+                <h1 className="text-3xl sm:text-4xl md:text-6xl pb-5 font-bold font-mono">Hi, I'm Tom!</h1>
+                <h2 className="text-3xl sm:text-4xl md:text-6xl pb-5 font-bold font-mono">Full Stack Software Developer</h2>
 
-                <div className="text-2xl pt-4 max-w-[1000px] text-justify leading-10 font-mono">
+                <div className="text-xl pt-4 text-start max-w-[1000px] md:text-justify md:text-2xl leading-10 font-mono">
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter
