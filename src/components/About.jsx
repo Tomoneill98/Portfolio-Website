@@ -3,8 +3,8 @@ import React from "react";
 export default function About () {
 
     return (
-        <div id="about" className="bg-pastelPurple w-full min-h-screen dark:bg-darkGrey dark:text-white">
-            <div className="flex flex-col justify-center items-center w-full h-full">
+        <div id="about" className="bg-pastelPurple w-full min-h-screen dark:bg-darkGrey dark:text-white flex justify-center items-center">
+         
                 {/*container*/}
                 <div className="max-w-[1000px] w-full px-4">
              <h1 className="font-bold text-6xl inline ">About me</h1>
@@ -18,7 +18,7 @@ export default function About () {
                     
                 </div>
             </div>
-        </div>
+  
      
     )
 }
