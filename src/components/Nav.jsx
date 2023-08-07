@@ -5,8 +5,13 @@ import { FiSun, FiMoon } from "react-icons/fi";
 export default function Nav ({theme, handleThemeSwitch}) {
 
     const [nav, setNav] = useState(false)
+
     function handleClick () {
         setNav(!nav)
+    }
+
+      function handleItemClick() {
+        setNav(false);
     }
 
     return (
@@ -35,18 +40,21 @@ export default function Nav ({theme, handleThemeSwitch}) {
     
         {/* hamburger */}
 
-        <div onClick= {handleClick}className="md:hidden z-10">
+        <div onClick={handleClick} className="md:hidden z-10">
             {!nav ? <FaBars /> : <FaTimes /> }
         </div>
 
         {/* mobile menu */}
 
-         <ul className={!nav ? "hidden" : "absolute left-0 top-0 w-full h-screen bg-black flex flex-col justify-center items-center"}> 
-            <li className="text-4xl py-6">Home</li>
-            <li className="text-4xl py-6">About</li>
-            <li className="text-4xl py-6">Projects</li>
-            <li className="text-4xl py-6">Contact</li>
-
+         <ul className={!nav ? "hidden" : "absolute left-0 top-0 w-full h-screen bg-homeGreen dark:bg-darkPurple2 flex flex-col justify-center items-center"}>
+              <li className="text-4xl py-6"> <a href="#home" onClick={handleItemClick}>Home</a></li>
+            <li className="text-4xl py-6"> <a href="#about" onClick={handleItemClick}>About</a></li>
+            <li className="text-4xl py-6"> <a href="#skills" onClick={handleItemClick}>Skills</a></li>
+            <li className="text-4xl py-6"><a href="#projects" onClick={handleItemClick}>Projects</a></li>
+            <li className="text-4xl py-6"><a href="#contact" onClick={handleItemClick}>Contact</a></li>
+            <li className="text-4xl py-6">  
+            <button type="button" onClick={handleThemeSwitch} className="p-2 rounded-md" >{theme === 'dark' ? <FiSun /> : <FiMoon />}</button>
+            </li>
         </ul>
 
         </nav>

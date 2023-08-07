@@ -4,6 +4,8 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      width: ["responsive"],
+      height: ["responsive"],
       colors: {
         homeGreen: "#6fdcbf",
         pastelPurple: "#EBCCFF",
