@@ -4,9 +4,9 @@ import MyCVFile from '../assets/TomONeillCV.pdf';
 
 export default function Contact() {
   return (
-    <div id="contact" className="min-h-[32rem] flex justify-center items-center bg-pastelBlue dark:bg-darkGrey dark:text-white">
-      <div className="max-w-[1000px] mx-auto p-4 w-full">
-        <h1 className="text-6xl font-bold mb-8">Contact</h1>
+    <div id="contact" className="min-h-[22rem] flex justify-center items-center bg-pastelBlue dark:bg-darkGrey dark:text-white">
+      <div className="max-w-[1000px] mx-auto p-4 w-full font-mono">
+        <h1 className="text-6xl font-bold mb-8 ">Contact</h1>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5">
           <ContactLink href="https://www.linkedin.com/in/tomoneill98/" icon={<BsLinkedin className="w-8 h-8"/>} text="LinkedIn" />
           <ContactLink href="https://github.com/Tomoneill98" icon={<BsGithub className="w-8 h-8"/>} text="GitHub" />
@@ -27,7 +27,7 @@ function ContactLink({ href, icon, text, download }) {
   {icon}
 </button>
 
-        <p className="text-sm text-center sm:text-center">{text}</p>
+        <p className="text-sm text-center sm:text-center font-semibold font-mono" >{text}</p>
       </div>
     </a>
   );

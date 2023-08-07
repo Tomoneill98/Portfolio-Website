@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <div id="projects" className="bg-pastelPink w-full min-h-screen md:h-screen dark:bg-darkPurple dark:text-white">
             {/*container */}
-        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full font-mono">
         {/*title*/}
             <div className="pb-8">
             <h1 className="text-6xl font-bold py-2">Projects</h1>
