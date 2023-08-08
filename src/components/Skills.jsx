@@ -1,12 +1,12 @@
 import React from "react"
-import CSS from '../assets/css.png'
-import HTML from '../assets/html.png'
-import JavaScript from '../assets/javascript.png'
-import ReactImg from '../assets/react.png'
-import Node from '../assets/node.png'
-import GitHub from '../assets/github.png'
-import Tailwind from '../assets/tailwind.png'
-import PSQL from '../assets/PSQL.png'
+import CSS from '../assets/skillsIcons/css.png'
+import HTML from '../assets/skillsIcons/html.png'
+import JavaScript from '../assets/skillsIcons/javascript.png'
+import ReactImg from '../assets/skillsIcons/react.png'
+import Node from '../assets/skillsIcons/node.png'
+import GitHub from '../assets/skillsIcons/github.png'
+import Tailwind from '../assets/skillsIcons/tailwind.png'
+import PSQL from '../assets/skillsIcons/PSQL.png'
 
 export default function Skills () {
 
