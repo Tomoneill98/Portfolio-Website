@@ -9,12 +9,12 @@ import { ncNewsSlides } from "../data/ncNewsSlides";
 export default function Projects() {
     return (
         <section id="projects" className="bg-pastelPink w-full min-h-screen dark:bg-darkPurple dark:text-white flex flex-col justify-center items-center">
-            <div className="max-w-[1240px] w-full p-4 -mt-10">
-                    <h1 className="text-3xl md:text-6xl py-2 font-bold font-mono">Projects</h1>
-                    <p className="py-2 text-lg font-mono">// Check out what I've been working on</p>
+            <div className="max-w-[1240px] w-full">
+                    <h1 className="text-6xl font-bold font-mono">Projects</h1>
+                    <p className="py-2 text-lg font-mono">// Hover over a project to find out more!</p>
 
-                <div className="w-full overflow-x-auto mt-8">
-                    <div className="flex flex-col sm:flex-row items-center gap-2">
+                <div className="w-full sm:mt-4">
+                    <div className="flex flex-col sm:grid grid-cols-2 items-center gap-2 sm:gap-8">
                         {projectData.map((project) => (
                             <ProjectCard
                                 key={project.title}
