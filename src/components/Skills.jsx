@@ -7,6 +7,7 @@ import Node from '../assets/skillsIcons/node.png'
 import GitHub from '../assets/skillsIcons/github.png'
 import Tailwind from '../assets/skillsIcons/tailwind.png'
 import PSQL from '../assets/skillsIcons/PSQL.png'
+import Typewriter from 'typewriter-effect';
 
 export default function Skills () {
 

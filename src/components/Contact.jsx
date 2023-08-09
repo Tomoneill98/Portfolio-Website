@@ -23,7 +23,7 @@ function ContactLink({ href, icon, text, download }) {
   return (
     <a target="_blank" href={href} download={download}>
       <div className="flex flex-col items-center">
-      <button className="bg-white dark:bg-teal-700 border-2 p-4 rounded-full mb-2 md:p-6">
+      <button className="bg-white dark:bg-teal-700 border-2 p-4 rounded-full mb-2 md:p-6 hover:bg-pastelBlue">
   {icon}
 </button>
 

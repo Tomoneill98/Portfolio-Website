@@ -1,6 +1,7 @@
 import LoveBirds from "../assets/lovebirds.png";
-import Backend from "../assets/ncNewsBackendSlides/comments.png";
+import Backend from "../assets/ncNewsBackendSlides/articles.png";
 import Frontend from "../assets/ncNewsSlides/home.png";
+import Portfolio from "../assets/portfolio.png";
 
 export const projectData = [
   {
@@ -26,5 +27,13 @@ export const projectData = [
       "The NC Review API provides a scalable and reliable platform for managing game reviews, making it an integral part of the Gossip girls website's backend infrastructure. A reddit style news website built with react. NC News is an interactive C.R.U.D web app for article reviews. Companion to the NC News backend API.",
     github: "https://github.com/Tomoneill98/Backend-Project-NC-News",
     demo: "https://northcoders-news-fsce.onrender.com/api/articles",
+  },
+  {
+    title: "Portfolio Website",
+    img: Portfolio,
+    description:
+      "I hope you've enjoyed browsing my portfolio site. Built with responsive design as the focus, using Next.js and TailwindCSS. Please reach out if you're interested in working with me, or you have some feedback on the site!",
+    github: "https://github.com/Tomoneill98/Portfolio-Website",
+    demo: "https://github.com/Tomoneill98/Portfolio-Website",
   },
 ];
