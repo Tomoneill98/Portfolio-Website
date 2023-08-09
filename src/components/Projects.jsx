@@ -1,10 +1,7 @@
 import React from "react";
-import LoveBirds from '../assets/lovebirds.png'
 import { projectData } from "../data/projectData";
-// import { loveBirdsSlides } from "../data/loveBirdsSlides";
 import {ProjectCard} from './ProjectCard';
-import { ncNewsBackEndSlides } from "../data/ncNewsBackendSlides";
-import { ncNewsSlides } from "../data/ncNewsSlides";
+
 
 export default function Projects() {
     return (
@@ -13,8 +10,8 @@ export default function Projects() {
                     <h1 className="text-6xl font-bold font-mono">Projects</h1>
                     <p className="py-2 text-lg font-mono">// Hover over a project to find out more!</p>
 
-                <div className="w-full sm:mt-4">
-                    <div className="flex flex-col sm:grid grid-cols-2 items-center gap-2 sm:gap-8">
+                <div className="w-full sm:mt-4 mb-4">
+                    <div className="flex flex-col sm:grid grid-cols-2 items-center gap-4 md:gap-6">
                         {projectData.map((project) => (
                             <ProjectCard
                                 key={project.title}

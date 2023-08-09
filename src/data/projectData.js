@@ -1,6 +1,6 @@
 import LoveBirds from "../assets/lovebirds.png";
-import Backend from "../assets/ncNewsBackendSlides/articles.png";
-import Frontend from "../assets/ncNewsSlides/home.png";
+import Backend from "../assets/articles.png";
+import Frontend from "../assets/NCNews.png";
 import Portfolio from "../assets/portfolio.png";
 
 export const projectData = [
@@ -18,7 +18,7 @@ export const projectData = [
     description:
       "A reddit style news website built with react. NC News is an interactive C.R.U.D web app for article reviews. Companion to the NC News backend API. A reddit style news website built with react. NC News is an interactive C.R.U.D web app for article reviews. Companion to the NC News backend API.",
     github: "https://github.com/Tomoneill98/Frontend-Project-NC-News",
-    demo: "https://northcoders.com/projects/june-2023/love-birds",
+    demo: "https://6479ba39bc81921388643fc7--glowing-malasada-c0125d.netlify.app/",
   },
   {
     title: "NC News - Backend API",
