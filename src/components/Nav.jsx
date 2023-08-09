@@ -16,7 +16,7 @@ export default function Nav ({theme, handleThemeSwitch}) {
     }
 
     return (
-        <nav className="fixed w-full h-[60px] flex justify-between items-center px-4 font-bold text-xl font-mono backdrop-blur-md dark:text-white ">
+        <nav className="fixed w-full h-[60px] flex justify-between items-center px-4 font-bold text-xl font-mono backdrop-blur-md dark:text-white z-10">
 
           
 

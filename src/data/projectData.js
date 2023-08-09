@@ -1,4 +1,4 @@
-import LoveBirds from "../assets/lovebirds5.png";
+import LoveBirds from "../assets/lovebirds.png";
 import Backend from "../assets/ncNewsBackendSlides/articles.png";
 import Frontend from "../assets/ncNewsSlides/home.png";
 import Portfolio from "../assets/portfolio.png";
