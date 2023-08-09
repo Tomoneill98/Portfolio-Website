@@ -9,7 +9,7 @@ import { ncNewsSlides } from "../data/ncNewsSlides";
 export default function Projects() {
     return (
         <section id="projects" className="bg-pastelPink w-full min-h-screen dark:bg-darkPurple dark:text-white flex flex-col justify-center items-center">
-            <div className="max-w-[1240px] w-full p-10 -mt-10">
+            <div className="max-w-[1240px] w-full p-4 -mt-10">
                     <h1 className="text-3xl md:text-6xl py-2 font-bold font-mono">Projects</h1>
                     <p className="py-2 text-lg font-mono">// Check out what I've been working on</p>
 

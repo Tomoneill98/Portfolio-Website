@@ -4,15 +4,15 @@ import {Carousel} from './Carousel'
 
 export const ProjectCard = ({ title, description, github, slides, demo, img }) => {
     return (
-        <li className="flex-shrink-0 mx-4 relative list-none w-[400px] overflow-hidden" style={{ maxWidth: "600px", borderRadius: "20px" }}>
+        <li className="flex-shrink-0 mx-4 relative list-none w-[400px] overflow-hidden" style={{ maxWidth: "600px", borderRadius: "12px" }}>
             <img src={img} />
 
-            <div className="absolute px-6 inset-0 flex flex-col rounded-xl justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-pink-200 dark:bg-darkPurple">
+            <div className="absolute px-6 inset-0 flex flex-col rounded-xl justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-pink-200 dark:bg-darkPurple dark:border-2 dark:border-white">
                 <h2 className="text-md md:text-xl font-semibold font-mono mb-2">{title}</h2>
                 <p className=" text-xs md:text-md font-mono text-justify md:px-8">{description}</p>
-                <div className="mt-2 ">
-                    <a href={demo} target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-700">Demo</a>
-                    <a href={github} target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:text-purple-700">Code</a>
+                <div className="mt-2 gap-10">
+                    <a href={demo} target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-700 mr-4">Demo</a>
+                    <a href={github} target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:text-purple-700 ml-4">Code</a>
                 </div>
             </div>
         </li>
