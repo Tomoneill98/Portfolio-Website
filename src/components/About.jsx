@@ -6,7 +6,7 @@ export default function About () {
         <div id="about" className="bg-pastelPurple w-full min-h-screen dark:bg-darkGrey dark:text-white flex justify-center items-center">
          
                 {/*container*/}
-                <div className="max-w-[1000px] w-full px-4">
+                <div className="max-w-[1240px] w-full px-4">
              <h1 className="font-bold text-6xl inline font-mono ">About me</h1>
                 <div className="md:text-justify my-8" >
                     <p className="mb-6 bg-offWhite rounded-lg p-2 pr-10 dark:bg-teal-700 font-mono">// I recently completed the Northcoders Software Development Bootcamp, where I gained experience in industry best practices such as Agile Methodologies, Test-Driven Development (TDD), Pair Programming, Scrum, and Kanban. I have worked with both frontend and backend tech stacks, enabling me to create robust and efficient applications.</p>
