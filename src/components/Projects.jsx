@@ -6,12 +6,12 @@ import {ProjectCard} from './ProjectCard';
 export default function Projects() {
     return (
         <section id="projects" className="bg-pastelPink w-full min-h-screen dark:bg-darkPurple dark:text-white flex flex-col justify-center items-center">
-            <div className="max-w-[1240px] w-full">
+            <div className="max-w-[1240px] w-full py-2 md:py-0">
                     <h1 className="text-6xl font-bold font-mono">Projects</h1>
-                    <p className="py-2 text-lg font-mono">// Hover over a project to find out more!</p>
+                    <p className="py-2 text-sm md:text-lg font-mono">// Hover over a project to find out more!</p>
 
-                <div className="w-full sm:mt-4 mb-4">
-                    <div className="flex flex-col sm:grid grid-cols-2 items-center gap-4 md:gap-6">
+                <div className="w-full sm:mt-4">
+                    <div className="flex flex-col md:grid grid-cols-2 items-center gap-4 md:gap-6">
                         {projectData.map((project) => (
                             <ProjectCard
                                 key={project.title}

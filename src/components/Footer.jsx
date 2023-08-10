@@ -13,14 +13,14 @@ function scrollTop () {
 
   return (
     <section className="bg-pastelYellow dark:bg-darkGrey w-screen h-fit ">
-       <div className="text-sm md:text-xl flex justify-center mb--4 font-mono dark:text-white">
-        © Tom O'Neill {new Date().getFullYear()}. All rights reserved.
-       </div>
-     <div className="flex justify-end">
+     <div className="flex justify-end mr-2">
         <button onClick={scrollTop}className="flex md:m-3 bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-1 rounded-full dark:bg-teal-700 ">
           <AiOutlineArrowUp className="text-3xl" />
         </button>
       </div>
+       <div className="text-sm md:text-xl flex justify-center mb--4 font-mono dark:text-white">
+        © Tom O'Neill {new Date().getFullYear()}. All rights reserved.
+       </div>
      
     </section>
   );
