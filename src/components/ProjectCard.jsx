@@ -11,14 +11,28 @@ export const ProjectCard = ({ title, description, github, demo, img }) => {
                 <h2 className="text-sm md:text-xl font-semibold font-mono sm:mb-2 -mt-10">{title}</h2>
                 <p className=" text-xs md:text-md font-mono text-justify leading-none md:leading normal sm:px-4 px-1 lg:m-4 " >{description}</p>
                 
-                <div className="absolute left-0 right-0 bottom-0 flex justify-center mt-1 md:mt-4">
+              <div className="absolute left-0 right-0 bottom-0 flex justify-center md:mt-4">
 
-                    <a href={demo} target="_blank" rel="noopener noreferrer">
-                    <button type="button" className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-2 py-1 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Demo</button>
-                   </a>
-                    <a href={github} target="_blank" rel="noopener noreferrer">
-                        <button type="button" className="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-2 py-1 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Code</button></a>
-                </div>
+    <a href={demo} target="_blank" rel="noopener noreferrer">
+        <button
+            type="button"
+            className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-xs md:text-sm px-2 py-1 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+        >
+            Demo
+        </button>
+    </a>
+    
+    <a href={github} target="_blank" rel="noopener noreferrer">
+        <button
+            type="button"
+            className="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-xs md:text-sm px-2 py-1 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+        >
+            Code
+        </button>
+    </a>
+    
+</div>
+
             </div>
         </li>
     );
