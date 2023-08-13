@@ -16,7 +16,7 @@ export default function Home() {
                 <h1 className="text-3xl sm:text-4xl md:text-6xl pb-5 font-bold font-mono">Hi, I'm Tom!</h1>
                 <h2 className="text-3xl sm:text-4xl md:text-6xl pb-5 font-bold font-mono">Full Stack Software Developer</h2>
 
-                <div className="text-xl pt-4 text-start max-w-[1000px] md:text-justify md:text-2xl leading-10 font-mono">
+                <div className="text-lg pt-4 text-start max-w-[1000px] md:text-justify md:text-2xl leading-10 font-mono">
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter
@@ -30,9 +30,6 @@ export default function Home() {
                         }}
                     />
                 </div>
-                {/* <div>
-                    <button className=" mt-8 border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-600 hover:border-purple-600">View Work</button>
-                </div> */}
             </div>
         </div>
     );

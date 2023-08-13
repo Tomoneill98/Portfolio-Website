@@ -10,7 +10,7 @@ export default function Skills () {
             <div className="max-w-[1240px] w-full p-4">
                 
                     <h1 className="text-6xl py-2 font-bold font-mono">Skills</h1>
-                    <p className="py-2 text-lg font-mono"> // These are the technologies I have worked with.</p>
+                    <p className="py-2 text-sm md:text-lg font-mono"> // These are the technologies I have worked with.</p>
              
                 {/*skills*/}
                   <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 font-mono">

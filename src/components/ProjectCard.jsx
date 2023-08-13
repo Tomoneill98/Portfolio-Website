@@ -11,7 +11,7 @@ export const ProjectCard = ({ title, description, github, demo, img }) => {
                 <h2 className="text-md md:text-xl font-semibold font-mono md:mb-2 md:mt-2">{title}</h2>
                 <p className=" text-xs md:text-md font-mono sm:text-justify md:px-8 mx-4 lg:m-4" >{description}</p>
                 
-                <div className="md:mt-4 md:gap-10">
+                <div className="mt-3 md:mt-4 md:gap-10">
 
                     <a href={demo} target="_blank" rel="noopener noreferrer">
                     <button type="button" className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-2 py-1 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Demo</button>

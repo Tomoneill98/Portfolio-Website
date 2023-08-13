@@ -13,7 +13,7 @@ export const projectData = [
     demo: "https://northcoders.com/projects/june-2023/love-birds",
   },
   {
-    title: "NC News",
+    title: "Readdit News",
     img: Frontend,
     description:
       "NC News is reddit style website for article reviews which was built with React and CSS. I implemented optimistic rendering and data fetching to create an engaging user interface.",
@@ -21,7 +21,7 @@ export const projectData = [
     demo: "https://6479ba39bc81921388643fc7--glowing-malasada-c0125d.netlify.app/",
   },
   {
-    title: "NC News - Backend API",
+    title: "Readdit News - Backend API",
     img: Backend,
     description:
       "The NC News API was built with an SQL database and developed in Express.js using an MVC model. It enables C.R.U.D operations to allow for easy reading and the option to post comments on articles.",
@@ -32,7 +32,7 @@ export const projectData = [
     title: "Portfolio Website",
     img: Portfolio,
     description:
-      "I hope you've enjoyed browsing my portfolio site. Built with responsive design as the focus, using React and Tailwind. Please reach out if you're interested in working with me, or you have some feedback on the site!",
+      "This portfolio website was created using React and Tailwind. The latter allowed me to implement responsive design so all mobile, tablet or desktop screens can view my content. I hope you've enjoyed my portfolio, please don't hesitate to contact me if you're interested in working with me!",
     github: "https://github.com/Tomoneill98/Portfolio-Website",
     demo: "https://tomoneill.tech/",
   },
