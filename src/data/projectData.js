@@ -1,6 +1,6 @@
 import LoveBirds from "../assets/lovebirds.png";
 import Backend from "../assets/articles.png";
-import Frontend from "../assets/NCNews.png";
+import Frontend from "../assets/readdit.png";
 import Portfolio from "../assets/portfolio.png";
 
 export const projectData = [
