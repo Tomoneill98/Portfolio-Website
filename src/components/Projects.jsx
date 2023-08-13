@@ -11,7 +11,7 @@ export default function Projects() {
                     <p className="text-sm md:text-lg font-mono mb-2 sm:mb-0">// Hover over a project to find out more!</p>
 
                 <div className="w-full sm:mt-4">
-                    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
+                    <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 md:gap-8">
                         {projectData.map((project) => (
                             <ProjectCard
                                 key={project.title}
