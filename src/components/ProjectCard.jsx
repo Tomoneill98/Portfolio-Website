@@ -8,10 +8,10 @@ export const ProjectCard = ({ title, description, github, demo, img }) => {
 
             <div className="absolute inset-0 flex flex-col rounded-2xl justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-pink-200  dark:bg-darkPurple dark:border-4 dark:border-white">
 
-                <h2 className="text-md md:text-xl font-semibold font-mono md:mb-2 md:mt-2">{title}</h2>
-                <p className=" text-xs md:text-md font-mono sm:text-justify md:px-8 mx-4 lg:m-4" >{description}</p>
+                <h2 className="text-md md:text-xl font-semibold font-mono mb-2 sm:mb-0 -mt-8">{title}</h2>
+                <p className=" text-xs md:text-md font-mono text-justify md:px-8 mx-6 lg:m-4" >{description}</p>
                 
-                <div className="mt-3 md:mt-4 md:gap-10">
+                <div className="absolute left-0 right-0 bottom-0 flex justify-center mt-1 md:mt-4">
 
                     <a href={demo} target="_blank" rel="noopener noreferrer">
                     <button type="button" className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-2 py-1 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Demo</button>
