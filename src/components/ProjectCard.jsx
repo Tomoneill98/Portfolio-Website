@@ -9,7 +9,7 @@ export const ProjectCard = ({ title, description, github, demo, img }) => {
             <div className="absolute inset-0 flex flex-col rounded-2xl justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-pink-200  dark:bg-darkPurple dark:border-4 dark:border-white">
 
                 <h2 className="text-md md:text-xl font-semibold font-mono mb-2 sm:mb-0 -mt-8">{title}</h2>
-                <p className=" text-xs md:text-md font-mono text-justify md:px-8 mx-4 lg:m-4" >{description}</p>
+                <p className=" text-xs md:text-md font-mono text-justify md:px-8 mx-2 lg:m-4" >{description}</p>
                 
                 <div className="absolute left-0 right-0 bottom-0 flex justify-center mt-1 md:mt-4">
 
