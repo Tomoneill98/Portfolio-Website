@@ -8,7 +8,7 @@ export const projectData = [
     title: "Love Birds",
     img: LoveBirds,
     description:
-      "Love Birds is a mobile app designed to spice up how users in long distance relationships can stay connected. You can send messages, snaps and games for your partner through an external 'egg' which can only be opened by completing a game/ quiz set by your partner. The app was developed as part of a team and built with React Native, Tailwind, TypeScript and Firebase.",
+      "Love Birds is a mobile app designed to spice up how users in long distance relationships stay connected. You can send messages, snaps and games to your partner through an external 'egg' which can only be opened by completing a game/quiz set by you. The app was developed as part of a team and built with React Native, Tailwind, TypeScript and Firebase.",
     github: "https://github.com/Tomoneill98/Final-Project-Love-Birds-App",
     demo: "https://northcoders.com/projects/june-2023/love-birds",
   },
