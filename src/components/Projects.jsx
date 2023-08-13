@@ -6,7 +6,7 @@ import {ProjectCard} from './ProjectCard';
 export default function Projects() {
     return (
         <section id="projects" className="bg-pastelPink w-full min-h-screen dark:bg-darkPurple dark:text-white flex flex-col justify-center items-center">
-            <div className="max-w-[1240px] w-full py-2 md:py-0">
+            <div className="max-w-[1240px] w-full py-3 md:py-0">
                     <h1 className="text-6xl font-bold font-mono">Projects</h1>
                     <p className="py-2 text-sm md:text-lg font-mono">// Hover over a project to find out more!</p>
 
