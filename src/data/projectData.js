@@ -16,7 +16,7 @@ export const projectData = [
     title: "Readdit News",
     img: Frontend,
     description:
-      "Readdit News offers a platform for users to read, like or comment on diverse articles, and engage in discussions from other profiles. Optimistic rendering and data fetching enhance the interface. Created during Northcoders bootcamp using React and CSS.",
+      "Readdit News offers a platform for users to read, like or comment on diverse articles, and engage in discussions from other profiles. Optimistic rendering and data fetching enhance the interface. Created during the Northcoders bootcamp using React and CSS.",
     github: "https://github.com/Tomoneill98/Frontend-Project-Readdit-News",
     demo: "https://tom-readdit.netlify.app/",
   },
