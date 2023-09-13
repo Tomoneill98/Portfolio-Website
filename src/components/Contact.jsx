@@ -1,6 +1,6 @@
 import React from "react";
 import { BsLinkedin, BsGithub, BsFileEarmarkText, BsEnvelope, BsTelephone } from "react-icons/bs";
-import MyCVFile from '../assets/TomONeillCV.pdf';
+import MyCVFile from '../assets/TomONeill.pdf';
 
 export default function Contact() {
   return (
