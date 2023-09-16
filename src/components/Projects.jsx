@@ -1,60 +1,74 @@
 import React from "react";
 import { projectData } from "../data/projectData";
 import {ProjectCard} from './ProjectCard';
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css';
 
 
 export default function Projects() {
-    return (
-        <section id="projects" className="bg-pastelPink w-full min-h-screen dark:bg-darkPurple dark:text-white flex flex-col justify-center items-center">
-            <div className="max-w-7xl mx-auto p-6">
-                    <h1 className="text-6xl font-bold font-mono mb-4">Projects</h1>
-                    <p className="text-sm md:text-lg font-mono mb-2 sm:mb-0">// Hover over a project to find out more!</p>
 
-                <div className="w-full sm:mt-4">
-                    <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 md:gap-8">
-                        {projectData.map((project) => (
-                            <ProjectCard
-                                key={project.title}
-                                img={project.img}
-                                title={project.title}
-                                description={project.description}
-                                github={project.github}
-                                demo={project.demo}
-                            />
-                        ))}
-                    </div>
+ const carousel = {
+      arrows: true,
+      infinite: true,
+      speed: 500, 
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 5000, 
+      cssEase: 'linear',
+      dots: true,
+    };
+
+    return (
+        <section id="projects" className="bg-pastelPink w-full min-h-screen dark:bg-darkPurple dark:text-white flex justify-center items-center">
+            <div className="max-w-[1240px] w-full p-4">
+                <div className="mb-10">
+         <h1 className="text-6xl font-bold font-mono">Projects</h1>
+
                 </div>
+          
+    
+       
+             <Slider {...carousel}>
+          {projectData.map((project) => (
+            <div key={project.title}>
+              <ProjectCard
+                title={project.title}
+                img={project.img}
+                description={project.description}
+                github={project.github}
+                demo={project.demo}
+              />
             </div>
+          ))}
+        </Slider>
+        
+            </div>
+
         </section>
     )
 }
 
 
 
-   // return (
-    //     <section id="projects" className="bg-pastelPink w-full min-h-screen md:h-screen">
 
-    //         <h1 className="text-start" > Projects
-    //         </h1>
-    //         <ul className="mx-auto my-12 flex flex-row items-center justify-center gap-8 ">
-    //     {projectData.map((project, i) => {
-    //         return (
-    //             <ProjectCard 
-    //             key={i}
-    //             slides={
-    //                 project.title === "Love Birds"
-    //                 ? loveBirdsSlides
-    //                 : project.title === "NC News"
-    //                 ? ncNewsSlides
-    //                 : ncNewsBackEndSlides
-    //             }
-    //             title={project.title}
-    //             description={project.description}
-    //             github={project.github}
-    //             demo={project.demo}
-    //             />
-    //         )
-    //     })}
-    //         </ul>
-    //     </section>
-    // )
+    // <div className="max-w-7xl mx-auto p-6">
+    //                 <h1 className="text-6xl font-bold font-mono mb-4">Projects</h1>
+    //                 <p className="text-sm md:text-lg font-mono mb-2 sm:mb-0">// Hover over a project to find out more!</p>
+
+    //             <div className="w-full sm:mt-4">
+    //                 <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 md:gap-8">
+    //                     {projectData.map((project) => (
+    //                         <ProjectCard
+    //                             key={project.title}
+    //                             img={project.img}
+    //                             title={project.title}
+    //                             description={project.description}
+    //                             github={project.github}
+    //                             demo={project.demo}
+    //                         />
+    //                     ))}
+    //                 </div>
+    //             </div>
+    //         </div>

@@ -2,6 +2,7 @@ import LoveBirds from "../assets/lovebirds.png";
 import Backend from "../assets/articles.png";
 import Frontend from "../assets/readdit.png";
 import Portfolio from "../assets/portfolio.png";
+import TipCalc from "../assets/tipCalc.png";
 
 export const projectData = [
   {
@@ -35,5 +36,13 @@ export const projectData = [
       "Created using React and Tailwind, this portfolio exhibits responsive design, light/dark modes, easy navigation, and more for seamless content access. I hope you have enjoyed my portfolio, please don't hesitate to contact me if you're interested in working with me!",
     github: "https://github.com/Tomoneill98/Portfolio-Website",
     demo: "https://tomoneill.tech/",
+  },
+  {
+    title: "Tom's Tip Calculator",
+    img: TipCalc,
+    description:
+      "Created a web application for splitting the bill easily when out for meals with friends. This application was built using React and features a visually appealing user interface, designed with vanilla CSS.",
+    github: "https://github.com/Tomoneill98/tip-calculator.git",
+    demo: "https://toms-tip-calculator.netlify.app/",
   },
 ];
