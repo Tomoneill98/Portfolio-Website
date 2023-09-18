@@ -13,7 +13,7 @@ export default function Skills () {
                     <p className="py-2 text-sm md:text-lg font-mono"> // These are the technologies I have worked with.</p>
              
                 {/*skills*/}
-                  <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 font-mono">
+                  <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8 font-mono">
                     {skillsList.map((skill) => (
                         <SkillsCard 
                         key={skill.title}

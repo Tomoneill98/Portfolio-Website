@@ -6,6 +6,8 @@ import Node from "../assets/skillsIcons/node.png";
 import GitHub from "../assets/skillsIcons/github.png";
 import Tailwind from "../assets/skillsIcons/tailwind.png";
 import PSQL from "../assets/skillsIcons/PSQL.png";
+import TypeScript from "../assets/skillsIcons/typescript.png";
+import Firebase from "../assets/skillsIcons/firebase.png";
 
 const skillsList = [
   {
@@ -18,11 +20,11 @@ const skillsList = [
   },
   {
     img: HTML,
-    title: "HTML",
+    title: "HTML5",
   },
   {
     img: CSS,
-    title: "CSS",
+    title: "CSS3",
   },
   {
     img: Tailwind,
@@ -39,6 +41,14 @@ const skillsList = [
   {
     img: PSQL,
     title: "PostgreSQL",
+  },
+  {
+    img: TypeScript,
+    title: "TypeScript",
+  },
+  {
+    img: Firebase,
+    title: "Firebase",
   },
 ];
 
