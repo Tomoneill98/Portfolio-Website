@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react"
 import Nav from "./components/Nav"
 import Home from "./components/Home"
 import About from "./components/About"
@@ -6,22 +7,21 @@ import Contact from "./components/Contact"
 import Skills from "./components/Skills"
 import Footer from "./components/Footer"
 
-import { useState, useEffect } from "react"
 
 function App() {
 
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState("light")
 
   useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove('dark')
+      document.documentElement.classList.remove("dark")
     }
   }, [theme])
 
   function handleThemeSwitch () {
-    setTheme(theme === "dark" ? "light" : 'dark')
+    setTheme(theme === "dark" ? "light" : "dark")
   }
 
   return (
