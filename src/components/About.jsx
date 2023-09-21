@@ -14,9 +14,6 @@ export default function About () {
                     <p className="mb-6  bg-offWhite rounded-lg p-3 md:pr-10 dark:bg-teal-700 font-mono">// Beyond coding, I enjoy spending time with my feline friends, practising Spanish, going on hikes in the beautiful Peak District and listening to Taylor Swift! </p>
                 </div>
                 </div>
-                <div>
-                    
-                </div>
             </div>
   
      

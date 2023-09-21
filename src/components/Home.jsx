@@ -7,8 +7,8 @@ export default function Home() {
         <div id='home' className="w-full h-screen bg-homeGreen dark:bg-darkPurple2 dark:text-white flex">
             {/* Image Container */}
             <div className="w-40% p-8 bg-white flex justify-center items-center dark:bg-darkGrey">
-                {/* Place your image here */}
-                <img className="w-80 justify-center items-center" src={Comp} alt="Image" />
+                
+                <img className="w-80 justify-center items-center" src={Comp} alt="Home Icon" />
             </div>
 
             {/* Heading and Text Container */}
