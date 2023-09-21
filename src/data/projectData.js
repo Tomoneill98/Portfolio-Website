@@ -1,8 +1,8 @@
-import LoveBirds from "../assets/lovebirds.png";
-import Backend from "../assets/articles.png";
-import Frontend from "../assets/readdit.png";
-import Portfolio from "../assets/portfolio.png";
-import TipCalc from "../assets/tipCalc.png";
+import LoveBirds from "../assets/projectImages/lovebirds.png";
+import Backend from "../assets/projectImages/articles.png";
+import Frontend from "../assets/projectImages/readdit.png";
+import Portfolio from "../assets/projectImages/portfolio.png";
+import TipCalc from "../assets/projectImages/tipCalc.png";
 
 export const projectData = [
   {
