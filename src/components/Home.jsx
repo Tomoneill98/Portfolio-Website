@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from 'typewriter-effect';
-import Comp from '../assets/retrocomp.png'
+import Comp from '../assets/homeIcon.png'
 
 export default function Home() {
     return (
